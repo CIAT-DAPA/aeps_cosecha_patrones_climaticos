@@ -10,12 +10,11 @@
 angular.module('cosechaPatronesClimaticosApp')
   .controller('MainCtrl', function () {
     var colors = {
-            'environment':         '#edbd00',
-            'social':              '#367d85',
-            'animals':             '#97ba4c',
-            'health':              '#f5662b',
-            'research_ingredient': '#3f3e47',
-            'fallback':            '#9f9fa3'
+            'environment':          '#edbd00',
+            'campana':              '#367d85',
+            'cluster':              '#97ba4c',
+            'empresa':              '#f5662b',
+            'estacion':             '#3f3e47'
           };
       d3.json("/data/product.json", function(error, json) {
         var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
@@ -37,6 +36,16 @@ angular.module('cosechaPatronesClimaticosApp')
         }
         function color(node, depth) {
           var id = node.id.replace(/(_score)?(_\d+)?$/, '');
+          console.log(id);
+          if(id.startsWith('campana'))
+            id='campana';
+          else if(id.startsWith('cluster'))
+            id='cluster';
+          else if(id.startsWith('empresa'))
+            id='empresa';
+          else if(id.startsWith('estacion'))
+            id='estacion';
+
           if (colors[id]) {
             return colors[id];
           } else if (depth > 0 && node.targetLinks && node.targetLinks.length == 1) {

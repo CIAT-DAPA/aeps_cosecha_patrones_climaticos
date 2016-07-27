@@ -1,0 +1,37 @@
+Node,Name,Old_id,Id
+0,506,506,campana_506
+1,607,607,campana_607
+2,708,708,campana_708
+3,809,809,campana_809
+4,910,910,campana_910
+5,1011,1011,campana_1011
+6,1112,1112,campana_1112
+7,1213,1213,campana_1213
+8,1314,1314,campana_1314
+9,1,1,cluster_1
+10,2,2,cluster_2
+11,3,3,cluster_3
+12,4,4,cluster_4
+13,5,5,cluster_5
+14,6,6,cluster_6
+15,7,7,cluster_7
+16,8,8,cluster_8
+17,9,9,cluster_9
+18,10,10,cluster_10
+19,11,11,cluster_11
+20,12,12,cluster_12
+21,13,13,cluster_13
+22,14,14,cluster_14
+23,15,15,cluster_15
+24,16,16,cluster_16
+25,Empresa_1,empresa_1,empresa_1
+26,Empresa_2,empresa_2,empresa_2
+27,Empresa_3,empresa_3,empresa_3
+28,Empresa_4,empresa_4,empresa_4
+29,Empresa_5,empresa_5,empresa_5
+30,Empresa_7,empresa_7,empresa_7
+31,Empresa_8,empresa_8,empresa_8
+32,Empresa_12,empresa_12,empresa_12
+33,INTA_MERCEDES EMC,inta_mercedes emc,estacion_inta_mercedes emc
+34,SMN_CURUZU QUATIA,smn_curuzu quatia,estacion_smn_curuzu quatia
+35,SMN_PASO DE LOS LIBRES,smn_paso de los libres,estacion_smn_paso de los libres
